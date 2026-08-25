@@ -1,0 +1,30 @@
+# Python virtual environment
+cognodb/venv/
+cognodb/.venv/
+
+# Python cache
+cognodb/**/__pycache__/
+cognodb/**/*.pyc
+
+# Large Pokec dataset
+cognodb/python/data/*.txt
+cognodb/python/data/*.txt.gz
+
+# Generated dataset
+cognodb/python/data/pokec_subset.csv
+
+# Java build files
+wexaai-cognodb-beanchmark/target/
+wexaai-cognodb-beanchmark/.gradle/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment files
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
