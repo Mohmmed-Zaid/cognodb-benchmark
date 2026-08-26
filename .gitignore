@@ -24,6 +24,7 @@ wexaai-cognodb-beanchmark/.gradle/
 # Environment files
 .env
 *.env
+config/.env
 
 # OS
 .DS_Store

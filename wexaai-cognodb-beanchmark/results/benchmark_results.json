@@ -1,0 +1,15 @@
+{
+  "timestamp" : 1787724774162,
+  "dataset" : "SNAP Pokec (200k edges, 45k nodes)",
+  "iterations_per_query" : 100,
+  "databases_tested" : 2,
+  "databases" : {
+    "CognoDB" : {
+      "connect_time_ms" : 3810,
+      "error" : "Connection to the database failed"
+    },
+    "Neo4j Aura" : {
+      "error" : "org.neo4j.driver.exceptions.AuthenticationException: The client is unauthorized due to authentication failure."
+    }
+  }
+}

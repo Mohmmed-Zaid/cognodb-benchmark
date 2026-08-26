@@ -1,0 +1,15 @@
+{
+  "timestamp" : 1787726091097,
+  "dataset" : "SNAP Pokec (200k edges, 45k nodes)",
+  "iterations_per_query" : 100,
+  "databases_tested" : 2,
+  "databases" : {
+    "CognoDB" : {
+      "connect_time_ms" : 3820,
+      "error" : "Connection to the database failed"
+    },
+    "Neo4j Aura" : {
+      "error" : "org.neo4j.driver.exceptions.Neo4jException: Driver execution failed"
+    }
+  }
+}
