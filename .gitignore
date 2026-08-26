@@ -1,31 +1,52 @@
-# Python virtual environment
-cognodb/venv/
-cognodb/.venv/
+# ==========================================
+# Python virtual environments
+# ==========================================
+**/venv/
+**/.venv/
 
 # Python cache
-cognodb/**/__pycache__/
-cognodb/**/*.pyc
+**/__pycache__/
+**/*.pyc
+**/*.pyo
 
+# ==========================================
 # Large Pokec dataset
-cognodb/python/data/*.txt
-cognodb/python/data/*.txt.gz
+# ==========================================
+**/data/*.txt
+**/data/*.txt.gz
 
 # Generated dataset
-cognodb/python/data/pokec_subset.csv
+**/data/pokec_subset.csv
 
-# Java build files
-wexaai-cognodb-beanchmark/target/
-wexaai-cognodb-beanchmark/.gradle/
+# ==========================================
+# Java / Maven build files
+# ==========================================
+**/target/
+**/.gradle/
 
+# ==========================================
 # IDE
+# ==========================================
 .vscode/
 .idea/
+*.iml
 
-# Environment files
-.env
-*.env
-config/.env
+# ==========================================
+# Environment / secrets
+# ==========================================
+**/.env
+**/.env.*
+!**/.env.example
 
+# ==========================================
+# Generated benchmark results
+# ==========================================
+**/results/
+**/benchmark_results.json
+**/*.png
+
+# ==========================================
 # OS
+# ==========================================
 .DS_Store
 Thumbs.db
